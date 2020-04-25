@@ -24,12 +24,18 @@ body {
 }
 
 div {
-    align-content: center;
+    text-align: center;
     margin: auto 3rem;
     width: auto;
     font-family: 'roboto_regular';
+    color: #07294D;
 }
 
 .resize {
     width: 70%;
+}
+
+h3 {
+    font-family: "roboto_bold";
+
 }
