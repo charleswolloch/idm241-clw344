@@ -24,15 +24,22 @@ body {
 }
 
 div {
-    text-align: center;
+    text-align: left;
     margin: auto 3rem;
+    padding: 0 6rem;
     width: auto;
     font-family: 'roboto_regular';
     color: #07294D;
 }
 
+div h1,
+img {
+    text-align: center;
+     !important
+}
+
 .resize {
-    width: 70%;
+    width: 100%;
 }
 
 h3 {
