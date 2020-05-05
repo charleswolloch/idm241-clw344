@@ -1,22 +1,15 @@
 body {
-    background: lightgray;
+    background: #cce2fa
 }
 
 
-div {
-    width: 450px;
+.button {
+    width: 190px;
     margin: 1rem auto;
-    padding: 1rem;
-    background: white;
+
 }
 
-p {
-    max-width: 430px;
-    padding: auto 3rem;
-    margin: auto 1rem;
-    margin-bottom: 1rem;
-    line-height: 1.25rem;
-}
+
 
 button {
     margin: auto 1rem;
@@ -39,4 +32,28 @@ button:hover {
         background-color: #FFC600;
         color: #07294D;
     }
+}
+
+div {
+    max-width: 600px;
+    text-align: left;
+    margin: auto;
+    padding: 0 6rem;
+    width: auto;
+    font-family: 'roboto_regular';
+    color: #07294D;
+}
+
+div h1,
+img {
+    text-align: center !important;
+}
+
+.resize {
+    width: 100%;
+}
+
+h3 {
+    font-family: "roboto_bold";
+
 }
