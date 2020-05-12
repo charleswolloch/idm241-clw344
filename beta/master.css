@@ -19,8 +19,9 @@
 
 
 body {
+    max-width: 1200px;
     margin: auto;
-    background: #cce2fa;
+    background: #c2c5cc;
 }
 
 div {
@@ -29,7 +30,7 @@ div {
     padding: 0 6rem;
     width: auto;
     font-family: 'roboto_regular';
-    color: #07294D;
+    color: black;
 }
 
 div h1,

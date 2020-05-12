@@ -1,0 +1,127 @@
+@font-face {
+    font-family: "theboldfont";
+    src: url(fonts/theboldfont-webfont.woff) format("woff"),
+        url(fonts/theboldfont-webfont.woff2) format("woff2");
+}
+
+
+@font-face {
+    font-family: "roboto_bold";
+    src: url(fonts/roboto-bold-webfont.woff) format("woff"),
+        url(fonts/roboto-bold-webfont.woff2) format("woff2");
+}
+
+body {
+    font-family: "theboldfont";
+    font-weight: 700;
+    font-size: 18px;
+    background: black;
+}
+
+#menu ul {
+    background: black;
+    padding: 0;
+    list-style: none;
+    position: relative;
+    display: inline-block;
+}
+
+#menu ul li {
+    float: left;
+    padding: 0;
+}
+
+#menu ul li:hover {
+    cursor: pointer;
+    background: #696969;
+    animation: fadeIn ease .5s;
+    -webkit-animation: fadeIn ease .5s;
+
+}
+
+@keyframes fadeIn {
+    0% {
+        opacity: 0;
+    }
+
+    100% {
+        opacity: 1;
+    }
+}
+
+@-moz-keyframes fadeIn {
+    0% {
+        opacity: 0;
+    }
+
+    100% {
+        opacity: 1;
+    }
+}
+
+@-webkit-keyframes fadeIn {
+    0% {
+        opacity: 0;
+    }
+
+    100% {
+        opacity: 1;
+    }
+}
+
+@-o-keyframes fadeIn {
+    0% {
+        opacity: 0;
+    }
+
+    100% {
+        opacity: 1;
+    }
+}
+
+@-ms-keyframes fadeIn {
+    0% {
+        opacity: 0;
+    }
+
+    100% {
+        opacity: 1;
+    }
+}
+
+#menu ul li a {
+    display: block;
+    padding: 20px 40px;
+    color: white;
+    text-decoration: none;
+}
+
+#menu ul ul {
+    display: none;
+    background: black;
+    padding: 0px;
+    width: 38.7%;
+    position: absolute;
+    top: 100%;
+    color: white;
+}
+
+#menu ul li:hover > ul {
+    display: block;
+}
+
+#menu ul ul li {
+    float: none;
+    text-align: left;
+    position: relative;
+    padding: 10px;
+    border-bottom: 1px solid white;
+    border-top: 1px solid white;
+}
+
+#menu ul ul ul {
+    position: absolute;
+    top: -1px;
+    left: 100%;
+    width: 120%;
+}
