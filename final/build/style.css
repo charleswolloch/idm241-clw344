@@ -15,7 +15,7 @@
 
 p {
     font-family: "roboto_regular";
-    font-size: 1.1em;
+    font-size: 1.em;
     line-height: 1.3em;
     margin: 1rem 1rem;
     padding: 0 .5rem;
@@ -182,6 +182,11 @@ h1 {
     margin: 2rem 0;
 }
 
+h3 {
+    color: white;
+    font-family: "roboto_regular";
+}
+
 .wrapper {
     width: 90%;
     margin: 0 auto;
@@ -338,6 +343,7 @@ h1 {
     margin: 0 auto;
     bottom: -.75rem;
     font-family: 'roboto_regular';
+    cursor: pointer;
 
 }
 
@@ -364,4 +370,28 @@ h1 {
         width: 100%;
         margin: 0 0 2rem 0;
     }
+}
+
+footer {
+    background: #222222;
+    padding-top: 3rem;
+    padding-bottom: 2rem;
+
+}
+
+footer div {
+    margin: 0 auto;
+    width: 400px;
+    text-align: center;
+    font-size: 14px;
+}
+
+
+footer div p {
+    line-height: 1px;
+    color: grey;
+}
+
+footer div i {
+    color: purple;
 }
